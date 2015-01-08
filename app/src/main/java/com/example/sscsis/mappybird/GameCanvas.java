@@ -39,10 +39,20 @@ public class GameCanvas extends SurfaceView implements SurfaceHolder.Callback {
 
     }
 
+    int loopcolor = 0;
+
     public void render(Canvas canvas) {
 
-        canvas.drawColor(Color.GREEN);
-
+        if (loopcolor==0) {
+            canvas.drawColor(Color.BLUE);
+            loopcolor = 1;
+        } else if (loopcolor==1) {
+            canvas.drawColor(Color.RED);
+            loopcolor = 2;
+        } else if (loopcolor==2) {
+            canvas.drawColor(Color.GREEN);
+            loopcolor = 0;
+        }
     }
 
     public void update() {
