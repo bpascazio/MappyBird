@@ -11,12 +11,21 @@ import android.view.SurfaceView;
  */
 public class GameCanvas extends SurfaceView implements SurfaceHolder.Callback {
 
+    MainThread thread;
+
     public GameCanvas(Context context) {
         super(context);
+        getHolder().addCallback(this);
+        setFocusable(true);
+
     }
 
     @Override
     public void surfaceCreated(SurfaceHolder holder) {
+
+        thread = new MainThread(getHolder(), this);
+        thread.setRunning(true);
+        thread.start();
 
     }
 
