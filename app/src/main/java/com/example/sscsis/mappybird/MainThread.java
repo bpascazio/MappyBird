@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.example.sscsis.mappybird;
+package edu.pace.mappybird;
 
 import android.graphics.Canvas;
 import android.util.Log;
@@ -22,7 +22,7 @@ public class MainThread extends Thread {
 	private SurfaceHolder surfaceHolder;
 	// The actual view that handles inputs
 	// and draws to the surface
-	private GameCanvas gamePanel;
+	private MainGamePanel gamePanel;
 
 	// flag to hold game state 
 	private boolean running;
@@ -30,7 +30,7 @@ public class MainThread extends Thread {
 		this.running = running;
 	}
 
-	public MainThread(SurfaceHolder surfaceHolder, GameCanvas gamePanel) {
+	public MainThread(SurfaceHolder surfaceHolder, MainGamePanel gamePanel) {
 		super();
 		this.surfaceHolder = surfaceHolder;
 		this.gamePanel = gamePanel;

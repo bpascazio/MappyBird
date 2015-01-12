@@ -1,4 +1,4 @@
-package com.example.sscsis.mappybird;
+package edu.pace.mappybird;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -84,7 +84,7 @@ public class Bird {
 					Log.d("Bird", ""+score);
 				}
 			}
-			/*
+			
 			// move mappy down because of gravity
 			if (thrust > 0) {
 				if (thrust > 100) {
@@ -119,7 +119,7 @@ public class Bird {
 					mediaPlayerHit.seekTo(0);
 					mediaPlayerHit.start();
 				}
-			}*/
+			}
 		}
 		/////////
 	}

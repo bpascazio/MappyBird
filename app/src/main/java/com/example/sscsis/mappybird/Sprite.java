@@ -1,4 +1,4 @@
-package com.example.sscsis.mappybird;
+package edu.pace.mappybird;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
