@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Game Settings">
+        <SwitchPreference android:key="sound_on_off" android:title="Sound" android:summary="Turn sound on or off."/>
+        <CheckBoxPreference android:key="game_ends" android:title="Game Ends" android:summary="Game will end at 0 points."/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
