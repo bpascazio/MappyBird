@@ -1,4 +1,4 @@
-package edu.pace.mappybird;
+package com.example.sscsis.mappybird;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;

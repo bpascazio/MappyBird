@@ -1,4 +1,4 @@
-package edu.pace.mappybird;
+package com.example.sscsis.mappybird;
 
 import android.content.Context;
 import android.content.Intent;
