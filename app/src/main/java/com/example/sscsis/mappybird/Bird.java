@@ -4,7 +4,9 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.media.MediaPlayer;
 import android.util.Log;
-
+/*
+My Changes
+ */
 public class Bird {
 
 		private Bitmap bitmap;	// the actual bitmap
